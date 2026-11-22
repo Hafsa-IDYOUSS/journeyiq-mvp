@@ -1,0 +1,10 @@
+
+version: 2
+
+sources:
+  - name: journeyiq
+    database: workspace
+    schema: journeyiq
+    tables:
+      - name: silver_ga4_events
+        description: "Cleaned GA4 events produced by the Databricks PySpark Silver pipeline."
